@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>TABELA 1</title><link rel="stylesheet" href="index.css" type="text/css" />
+<body>
+<table border="1">
+    <thead>
+        <tr>
+            <h1><th class="elemento">Period</th></p> <th class="android">Android</th><th class="ios">IOS</th>
+                <th class="windows_phone">Windows Phone</th><th class="others">Others</th></h1></tr>
+</thead>
+<tfoot>
+<tr>
+<td>2017Q1</td><td>85.0%</td><td>14.7%</td><td>0.1%</td><td>0.1%</td>    
+</tr>    
+</tfoot>
+<tbody>
+<tr>
+<td>2016Q1</td><td>83.4%</td><td>15.4%</td><td>0.8%</td><td>0.4%</td>    
+</tr>
+<tr>
+<td>2016Q2</td><td>83.4%</td><td>15.4%</td><td>0.8%</td><td>0.4%</td>    
+</tr>
+<tr>
+    <td>2016Q3</td><td>86.8%</td><td>12.5%</td><td>0.3%</td><td>0.4%</td>
+</tr>
+<tr>
+    <td>2016Q4</td><td>81.4%</td><td> 18.2%</td><td>0.2%</td><td>0.2%</td>
+</tr>   
+</tbody>       
+</table>
+</table>    
+<style>
+    .container{
+        display:flex;
+        border-collapse: collapse;
+        
+    }   
+    
+    .elemento {
+        background-color:rgba(156, 153, 153, 0.712);
+        border-top: 3px solid rgba(117, 117, 117, 0.712);
+
+        
+    }
+    
+    .android {
+       background-color:rgb(115, 201, 115);
+       border-top: 3px solid rgb(7, 161, 7);   
+    } 
+    .ios {
+       background-color:rgb(93, 169, 204);
+       border-top: 3px solid rgb(63, 103, 236);   
+    }
+    .windows_phone {
+      background-color:rgb(188, 165, 224);
+      border-top: 3px solid rgb(138, 81, 175); 
+       }
+    .others { 
+      background-color:rgb(241, 169, 87);
+      border-top: 3px solid rgb(224, 128, 18); 
+       
+    } 
+    </style>
+</body>    
+</html>
